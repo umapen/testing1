@@ -1,0 +1,16 @@
+
+//program that uses console.write: c#
+using System;
+
+class Program
+{
+    static void Main()
+    {
+	Console.Write("One ");     // <-- This writes the word.
+	Console.Write("Two ");     // <-- This is on the same line.
+	Console.Write("Three");    // <-- Also on the same line.
+	Console.WriteLine();       // <-- This writes a newline.
+
+	Console.WriteLine("Four"); // <-- This is on the next line.
+    }
+}
